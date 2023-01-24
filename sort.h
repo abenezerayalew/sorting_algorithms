@@ -1,4 +1,4 @@
-#if !defined(SORT_H)
+#ifndef SORT_H
 #define SORT_H
 
 /**
@@ -14,6 +14,7 @@ typedef struct listint_s
     struct listint_s *prev;
     struct listint_s *next;
 } listint_t;
+
 void bubble_sort(int *array, size_t size);
 
 #endif // SORT_H
